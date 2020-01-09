@@ -14,7 +14,7 @@ import requests
 
 
 
-YOUTUBE_API_KEY = 'AIzaSyA2wM-y8xJMZ82amBybNOPFPbXOwWgoIyE'
+YOUTUBE_API_KEY = ''
 
 def home(request):
     return render(request, 'halls/home.html')
